@@ -1,0 +1,14 @@
+{
+  "name": "pkgpublished",
+  "version": "1.0.0",
+  "description": "封装的一些库",
+  "main": "index.js",
+  "author": "lukeding",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/TestApps",
+    "packages/goku/lib/*",
+    "packages/goku/ui/*"
+  ]
+}
