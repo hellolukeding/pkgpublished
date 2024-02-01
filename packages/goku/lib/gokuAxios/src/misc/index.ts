@@ -126,3 +126,10 @@ export const routeChangeListener = (cb: (path: string) => void) => {
   })
 };
 
+/**
+ * 
+ * @returns 路由query传参
+ */
+export const getUrlSearchParams = () => {
+  return new URLSearchParams(window.location.search);
+};
