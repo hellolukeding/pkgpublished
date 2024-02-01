@@ -121,7 +121,7 @@ export const logParams = (params: URLSearchParams) => {
  * @param cb 路由变化监听回调
  */
 export const routeChangeListener = (cb: (path: string) => void) => {
-  window.addEventListener("popstate", (e) => {
+  window.addEventListener("popstate", () => {
     cb(window.location.pathname);
   })
 };
